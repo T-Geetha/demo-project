@@ -89,7 +89,7 @@ function EditUserInformation(props) {
     if (anchorRef.current && anchorRef.current.contains(event.target)) {
       return;
     }
-
+    console.log("geetha");
     setOpen(false);
   };
 
